@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Daily-UI-007</title>
+  </head>
+  <body>
+    <!-- mobile design -->
+    <div class="container_mobile">
+    <div class="nav_mobile">
+      <div class="nav_top_mobile">
+        <img src="./images/App Icon.svg" alt="" />
+        <img src="./images/hamburger.svg" alt="" />
+      </div>
+      <h1 class="setting_h1_mobile">Settings</h1>
+      <div class="menu_selector_mobile">
+        <p class="active">My Details</p>
+        <a href="./billing.html"><p>Billing</p></a>
+        <a href="./password.html"><p>Password</p></a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="section_header">
+        <h1>Personal Info</h1>
+        <p>Update your personal details here.</p>
+      </div>
+      <hr class="divider" />
+      <div class="form_mobile">
+        <p>Name</p>
+        <input
+          type="text"
+          name="First Name"
+          placeholder="First name"
+          class="input_mobile"
+        />
+        <input
+          type="text"
+          name="Last Name"
+          placeholder="Last name"
+          class="input_mobile"
+        />
+        <p>Email address</p>
+        <input type="text" name="Email" class="input_mobile" />
+        <p>Country</p>
+        <input type="text" name="Country" class="input_mobile" />
+        <p>Time Zone</p>
+        <input type="text" name="Time Zone" class="input_mobile" />
+      </div>
+      <button class="button_update_mobile">Update</button>
+      <button class="button_cancel_mobile">Cancel</button>
+    </div>
+    </div>
+
+    <!-- desktop design -->
+    <div class="main_body">
+      <div class="left_body">
+        <img src="./images/App Icon.svg" class="icon_desktop" />
+        <div></div>
+        <input type="text" placeholder="Search" class="search" />
+        <div class="nav_desktop">
+          <p>Home</p>
+          <p>Projects</p>
+          <p>Content</p>
+          <p class="active">Settings</p>
+        </div>
+      </div>
+      <div class="right_body">
+        <div class="content_desktop_centered">
+          <h1 class="setting_h1_desktop">Settings</h1>
+          <div class="menu_selector_desktop">
+            <p class="active">My Details</p>
+            <a href="./billing.html"><p>Billing</p></a>
+            <a href="./password.html"><p>Password</p></a>
+          </div>
+          <hr class="divider" />
+          <div class="header_section">
+            <div class="left">
+              <h1>Personal Info</h1>
+              <p>Update your personal details here.</p>
+            </div>
+            <div class="right">
+              <button class="button_update_mobile">Update</button>
+              <button class="button_cancel_mobile">Cancel</button>
+            </div>
+          </div>
+          <hr class="divider" />
+          <div class="inputs">
+            <div class="inputs_left">
+              <p>Name</p>
+            </div>
+            <div class="inputs_right">
+              <input
+                type="text"
+                name="First Name"
+                placeholder="First name"
+                class="input_mobile"
+              />
+              <input
+                type="text"
+                name="Last Name"
+                placeholder="Last name"
+                class="input_mobile"
+              />
+            </div>
+          </div>
+          <hr class="divider" />
+          <div class="inputs">
+            <div class="inputs_left">
+              <p>Email</p>
+            </div>
+            <div class="inputs_right">
+                <input type="text" name="Email" class="input_mobile" />
+            </div>
+        </div>
+        <hr class="divider" />
+        <div class="inputs">
+            <div class="inputs_left">
+              <p>Country</p>
+            </div>
+            <div class="inputs_right">
+                <input type="text" name="Country" class="input_mobile" />
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="inputs_left">
+              <p>Time Zone</p>
+            </div>
+            <div class="inputs_right">
+                <input type="text" name="Time" class="input_mobile" />
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Daily-UI-007</title>
+  </head>
+  <body>
+    <!-- mobile design -->
+    <div class="container_mobile">
+    <div class="nav_mobile">
+      <div class="nav_top_mobile">
+        <img src="./images/App Icon.svg" alt="" />
+        <img src="./images/hamburger.svg" alt="" />
+      </div>
+      <h1 class="setting_h1_mobile">Settings</h1>
+      <div class="menu_selector_mobile">
+        <a href="./index.html"><p> My Details</p></a>
+        <p class="active">Billing</p>
+        <a href="./password.html"><p>Password</p></a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="section_header">
+        <h1>Personal Info</h1>
+        <p>Update your personal details here.</p>
+      </div>
+      <hr class="divider" />
+      <div class="form_mobile">
+        <p>Name on card</p>
+        <input type="text" name="Name" class="input_mobile"/>
+        <p>Card number</p>
+        <input type="text" name="number" class="input_mobile" />
+        <div class="two_inputs">
+            <div class="left_two_inputs">
+                <p>CVV</p>
+                <input type="text" name="Country" class="input_mobile" />
+            </div>
+            <div class="right_two_inputs">
+                <p>Expiry</p>
+                <input type="text" name="Time Zone" class="input_mobile" />
+            </div>
+        </div>
+        <hr class="divider" />
+        <p>Email</p>
+        <input type="text" name="Email" class="input_mobile email"/>
+        <hr class="divider" />
+        <p>Billing address</p>
+        <p>Address</p>
+        <input type="text" name="Address" class="input_mobile"/>
+        <p>City</p>
+        <input type="text" name="City" class="input_mobile" />
+        <p>Province</p>
+        <input type="text" name="Province" class="input_mobile"/>
+        <p>Postal Code</p>
+        <input type="text" name="number" class="input_mobile" placeholder="A1B 2C3"/>
+        <p>Country </p>
+        <input type="text" name="Country " class="input_mobile" />
+      </div>
+      <button class="button_update_mobile">Update</button>
+      <button class="button_cancel_mobile">Cancel</button>
+    </div>
+    </div>
+
+    <!-- desktop design -->
+    <div class="main_body">
+      <div class="left_body">
+        <img src="./images/App Icon.svg" class="icon_desktop" />
+        <div></div>
+        <input type="text" placeholder="Search" class="search" />
+        <div class="nav_desktop">
+          <p>Home</p>
+          <p>Projects</p>
+          <p>Content</p>
+          <p class="active">Settings</p>
+        </div>
+      </div>
+      <div class="right_body">
+        <div class="content_desktop_centered">
+          <h1 class="setting_h1_desktop">Settings</h1>
+          <div class="menu_selector_desktop">
+            <a href="./index.html"><p> My Details</p></a>
+            <p class="active">Billing</p>
+            <a href="./password.html"><p>Password</p></a>
+          </div>
+          <hr class="divider" />
+          <div class="header_section">
+            <div class="left">
+              <h1>Payment Method</h1>
+              <p>Update your billing details and address.</p>
+            </div>
+            <div class="right">
+              <button class="button_update_mobile">Update</button>
+              <button class="button_cancel_mobile">Cancel</button>
+            </div>
+          </div>
+          <hr class="divider" />
+          <div class="header_inputs">Card Details</div>
+          <div class="inputs">
+            <div class="inputs_left">
+              <p>Name on card</p>
+            </div>
+            <div class="inputs_right">
+                <input type="text" name="name" class="input_mobile" />
+            </div>
+          </div>
+          <div class="inputs">
+            <div class="inputs_left">
+              <p>Card Number</p>
+            </div>
+            <div class="inputs_right">
+                <input type="text" name="number" class="input_mobile" />
+            </div>
+          </div>
+          <div class="inputs">
+            <div class="inputs_left">
+              <p>CVV</p>
+            </div>
+            <div class="inputs_right">
+                <input type="text" name="number" class="input_mobile" placeholder="123"/>
+            </div>
+          </div>
+          <div class="inputs">
+            <div class="inputs_left">
+              <p>Expiry</p>
+            </div>
+            <div class="inputs_right">
+                <input type="text" name="number" class="input_mobile" placeholder="MM/YY"/>
+            </div>
+          </div>
+          <hr class="divider" />
+          <div class="inputs">
+            <div class="inputs_left">
+              <p>Email</p>
+            </div>
+            <div class="inputs_right">
+                <input type="text" name="Email" class="input_mobile" />
+            </div>
+        </div>
+        <hr class="divider" />
+        <div class="header_inputs">Billing Address</div>
+        <div class="inputs">
+            <div class="inputs_left">
+              <p>Address</p>
+            </div>
+            <div class="inputs_right">
+                <input type="text" name="address" class="input_mobile" />
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="inputs_left">
+              <p>City</p>
+            </div>
+            <div class="inputs_right">
+                <input type="text" name="City" class="input_mobile" />
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="inputs_left">
+              <p>Province</p>
+            </div>
+            <div class="inputs_right">
+                <input type="text" name="Province" class="input_mobile" />
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="inputs_left">
+              <p>Postal Code</p>
+            </div>
+            <div class="inputs_right">
+                <input type="text" name="Postal Code" class="input_mobile" placeholder="A1B 2C3" />
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="inputs_left">
+              <p>Country</p>
+            </div>
+            <div class="inputs_right">
+                <input type="text" name="Country" class="input_mobile" />
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
