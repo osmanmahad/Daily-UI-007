@@ -89,6 +89,10 @@ input::placeholder {
   filter: drop-shadow(1.5px 1.5px 1px rgba(0, 0, 0, 0.25));
 }
 
+#timezone-offset {
+  background-color: white;
+  font-size: 12px;
+}
 .form_mobile p {
   font-weight: 400;
   font-size: 16px;
@@ -145,6 +149,9 @@ a:visited {
   .container_mobile {
     display: none;
   }
+  #timezone-offset {
+    font-size: 16px;
+  }
   .main_body {
     display: flex;
     width: 100vw;
@@ -185,7 +192,9 @@ a:visited {
     border: none;
     padding: 10px;
   }
-
+  .input_mobile {
+    margin-top: 0px;
+  }
   .nav_desktop p {
     color: white;
     margin-top: 50px;
